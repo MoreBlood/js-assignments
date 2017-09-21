@@ -1,6 +1,6 @@
-'use strict';
 
-/**********************************************************************************************
+
+/** ********************************************************************************************
  *                                                                                            *
  * Plese read the following tutorial before implementing tasks:                               *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions                    *
@@ -8,7 +8,7 @@
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments      *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures                           *
  *                                                                                            *
- **********************************************************************************************/
+ ********************************************************************************************* */
 
 
 /**
@@ -25,7 +25,7 @@
  *   getComposition(Math.sin, Math.asin)(x) => Math.sin(Math.acos(x))
  *
  */
-function getComposition(f,g) {
+function getComposition(f, g) {
     throw new Error('Not implemented');
 }
 
@@ -176,12 +176,12 @@ function getIdGeneratorFunction(startFrom) {
 
 
 module.exports = {
-    getComposition: getComposition,
-    getPowerFunction: getPowerFunction,
-    getPolynom: getPolynom,
-    memoize: memoize,
-    retry: retry,
-    logger: logger,
-    partialUsingArguments: partialUsingArguments,
-    getIdGeneratorFunction: getIdGeneratorFunction,
+    getComposition,
+    getPowerFunction,
+    getPolynom,
+    memoize,
+    retry,
+    logger,
+    partialUsingArguments,
+    getIdGeneratorFunction,
 };

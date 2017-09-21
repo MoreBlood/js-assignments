@@ -1,4 +1,4 @@
-'use strict';
+
 
 /**
  * Returns the array of 32 compass points and heading.
@@ -18,7 +18,7 @@
  */
 function createCompassPoints() {
     throw new Error('Not implemented');
-    var sides = ['N','E','S','W'];  // use array of cardinal directions only!
+    const sides = ['N', 'E', 'S', 'W']; // use array of cardinal directions only!
 }
 
 
@@ -141,9 +141,9 @@ function extractRanges(nums) {
 }
 
 module.exports = {
-    createCompassPoints : createCompassPoints,
-    expandBraces : expandBraces,
-    getZigZagMatrix : getZigZagMatrix,
-    canDominoesMakeRow : canDominoesMakeRow,
-    extractRanges : extractRanges
+    createCompassPoints,
+    expandBraces,
+    getZigZagMatrix,
+    canDominoesMakeRow,
+    extractRanges,
 };

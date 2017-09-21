@@ -1,12 +1,12 @@
-'use strict';
 
-/********************************************************************************************
+
+/** ******************************************************************************************
  *                                                                                          *
  * Plese read the following tutorial before implementing tasks:                             *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators   *
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield        *
  *                                                                                          *
- ********************************************************************************************/
+ ******************************************************************************************* */
 
 
 /**
@@ -131,9 +131,9 @@ function* mergeSortedSequences(source1, source2) {
 
 
 module.exports = {
-    get99BottlesOfBeer: get99BottlesOfBeer,
-    getFibonacciSequence: getFibonacciSequence,
-    depthTraversalTree: depthTraversalTree,
-    breadthTraversalTree: breadthTraversalTree,
-    mergeSortedSequences: mergeSortedSequences
+    get99BottlesOfBeer,
+    getFibonacciSequence,
+    depthTraversalTree,
+    breadthTraversalTree,
+    mergeSortedSequences,
 };
