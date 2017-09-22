@@ -557,7 +557,7 @@ function selectMany(arr, childrenSelector) {
  */
 function getElementByIndexes(arr, indexes) {
     throw new Error('Not implemented');
-    //return arr[...indexes];
+    // return arr[...indexes];
 }
 
 

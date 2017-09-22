@@ -19,6 +19,11 @@
 function createCompassPoints() {
     throw new Error('Not implemented');
     const sides = ['N', 'E', 'S', 'W']; // use array of cardinal directions only!
+    const arr = [];
+    for (let i = 0; i < 32; i += 1) {
+        arr.push({ abbreviation: `${sides[i % 4]}${i % 4 === 1 ? 'b' : ''}`, azimuth: i * 11.25 });
+    }
+    return arr;
 }
 
 

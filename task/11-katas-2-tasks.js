@@ -1,4 +1,4 @@
-'use strict';
+
 
 /**
  * Returns the bank account number parsed from specified string.
@@ -96,8 +96,8 @@ const PokerRank = {
     ThreeOfKind: 3,
     TwoPairs: 2,
     OnePair: 1,
-    HighCard: 0
-}
+    HighCard: 0,
+};
 
 function getPokerHandRank(hand) {
     throw new Error('Not implemented');
@@ -110,10 +110,10 @@ function getPokerHandRank(hand) {
  * The task is to break the figure in the rectangles it is made of.
  *
  * NOTE: The order of rectanles does not matter.
- * 
+ *
  * @param {string} figure
  * @return {Iterable.<string>} decomposition to basic parts
- * 
+ *
  * @example
  *
  *    '+------------+\n'+
@@ -135,14 +135,14 @@ function getPokerHandRank(hand) {
  *    '+-------------+\n'
  */
 function* getFigureRectangles(figure) {
-   throw new Error('Not implemented');
+    throw new Error('Not implemented');
 }
 
 
 module.exports = {
-    parseBankAccount : parseBankAccount,
-    wrapText: wrapText,
-    PokerRank: PokerRank,
-    getPokerHandRank: getPokerHandRank,
-    getFigureRectangles: getFigureRectangles
+    parseBankAccount,
+    wrapText,
+    PokerRank,
+    getPokerHandRank,
+    getFigureRectangles,
 };
