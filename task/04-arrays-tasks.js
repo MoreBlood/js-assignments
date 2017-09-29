@@ -423,7 +423,7 @@ function toStringList(arr) {
  */
 function sortCitiesArray(arr) {
     throw new Error('Not implemented');
-    return arr.sort((a, b) => ((a.country === b.country) ? a.city > b.city : a.country > b.country));
+    return arr.sort((a, b) => ((a.country !== b.country) ? (typeof a.country === 'number' ? a.country - b.country : a.country > b.country) : (typeof a.city === 'number' ? a.city - b.city : a.city > b.city)));
 }
 
 /**
